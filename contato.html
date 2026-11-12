@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Portal Sudeste Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">Portal Sudeste Notícias</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="nossa-historia.html">Nossa História</a></li>
+                    <li><a href="codigo-etica.html">Código de Ética</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="page-section">
+            <h2>Fale Conosco</h2>
+            
+            <div class="contact-grid">
+                <!-- Formulário de Contato -->
+                <div class="institutional-card">
+                    <div class="institutional-body">
+                        <h3>Envie sua mensagem ou sugestão de pauta</h3>
+                        <p>Preencha o formulário abaixo para falar diretamente com a nossa redação.</p>
+                        
+                        <form action="#" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <select id="assunto" name="assunto" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="pauta">Sugestão de Pauta / Denúncia</option>
+                                    <option value="errata">Solicitação de Correção</option>
+                                    <option value="comercial">Anuncie / Comercial</option>
+                                    <option value="outros">Outros Assuntos</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem detalhada..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Informações da Redação -->
+                <aside class="contact-info-box">
+                    <div class="info-card">
+                        <h3>Redação Central</h3>
+                        <p><strong>Endereço:</strong> Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+                        <p><strong>Telefone:</strong> (11) 3000-0000</p>
+                        <p><strong>E-mail Geral:</strong> redacao@portalsudestenoticias.com.br</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Horário de Atendimento</h3>
+                        <p>Segunda a Sexta: 08h às 20h</p>
+                        <p>Plantão de Jornalismo: 24 horas</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Portal Sudeste Notícias. Todos os direitos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="nossa-historia.html">Nossa História</a></li>
+                <li><a href="codigo-etica.html">Código de Ética</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
